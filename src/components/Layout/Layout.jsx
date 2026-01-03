@@ -31,7 +31,7 @@ const Layout = () => {
                 <Footer />
                 {/* WhatsApp Floating Button */}
                 <a
-                    href="https://wa.me/919876543210?text=Hello%20Sri%20Balaji%20Group,%20I%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details."
+                    href="https://wa.me/919440576611?text=Hello%20Sri%20Balaji%20Group,%20I%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details."
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
