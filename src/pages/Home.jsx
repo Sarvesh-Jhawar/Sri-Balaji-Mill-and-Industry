@@ -14,7 +14,7 @@ const Home = () => {
     const industriesMap = 'https://maps.app.goo.gl/KFLFYpMg3KF7eUio9?g_st=aw';
 
     return (
-        <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '18px 0' }}>
+        <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', padding: '100px 0 20px 0' }}>
             <div className="home-inner">
                 <header style={{ textAlign: 'center', marginBottom: '28px' }}>
                     <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '2.25rem', marginBottom: '6px' }}>{t('home.welcome')}</h1>

@@ -112,6 +112,7 @@ const Footer = () => {
                     <button
                         onClick={() => setShowDisclaimer(true)}
                         className="text-xs hover:text-[var(--accent-primary)] underline transition-colors opacity-75 hover:opacity-100"
+                        style={{ background: 'transparent', color: 'var(--text-secondary)' }}
                     >
                         {t('disclaimer.title') || 'Disclaimer'}
                     </button>
@@ -125,7 +126,8 @@ const Footer = () => {
                 <div className="mt-6 flex justify-end">
                     <button
                         onClick={() => setShowDisclaimer(false)}
-                        className="px-4 py-2 bg-[var(--accent-primary)] text-white rounded-lg hover:brightness-110 transition-all font-medium text-sm"
+                        className="px-4 py-2 bg-[var(--accent-primary)] rounded-lg hover:brightness-110 transition-all font-medium text-sm"
+                        style={{ color: 'var(--on-accent)' }}
                     >
                         {t('process.btnClose') || 'Close'}
                     </button>
