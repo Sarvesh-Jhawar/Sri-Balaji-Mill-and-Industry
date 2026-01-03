@@ -53,7 +53,7 @@ const Footer = () => {
                             {[
                                 { name: "Ramesh Chand Jhawar", num: "+91 94407 47339" },
                                 { name: "Hari Prasad Jhawar", num: "+91 94401 59617" },
-                                { name: "Sham Sundar Jhawar", num: "+91 94418 09781" },
+                                { name: "Shyam Sundar Jhawar", num: "+91 94418 09781" },
                                 { name: "Omprakash Jhawar", num: "+91 94405 76611" }
                             ].map((contact, idx) => (
                                 <div key={idx} className="flex items-center gap-2" style={{ color: 'var(--text-secondary)' }}>

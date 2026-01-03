@@ -43,7 +43,7 @@ const Contact = () => {
                                     <h3 className="font-bold text-lg mb-2">Phone</h3>
                                     <div className="space-y-2">
                                         {[
-                                            { name: "Ramesh Chand Jhawar", num: "+91 94407 47339" },
+                                            { name: "Ramesh Jhawar", num: "+91 94407 47339" },
                                             { name: "Hari Prasad Jhawar", num: "+91 94401 59617" },
                                             { name: "Sham Sundar Jhawar", num: "+91 94418 09781" },
                                             { name: "Omprakash Jhawar", num: "+91 94405 76611" }

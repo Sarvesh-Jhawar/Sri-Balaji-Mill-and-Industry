@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Sun, Moon, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../../assets/logo.webp';
 import './Navbar.css';
 
 import { useTranslation } from '../../context/i18n';
@@ -55,17 +56,28 @@ const Navbar = ({ theme, toggleTheme }) => {
       }}
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px' }}>
-        {/* Left - empty spacer for centering logo on mobile */}
-        <div style={{ width: 40 }} aria-hidden />
+
 
         {/* Logo centered */}
-        <Link to="/" className="flex flex-col group" aria-label="Sri Balaji Group Home" style={{ textAlign: 'center' }}>
-          <span className="text-2xl font-bold tracking-tight" style={{ fontFamily: 'Playfair Display, serif', color: scrolled ? 'var(--text-primary)' : 'var(--text-primary)' }}>
-            SRI BALAJI
-          </span>
-          <span className="text-xs tracking-widest font-medium transition-colors" style={{ color: 'var(--text-secondary)' }}>
-            GROUP
-          </span>
+        <Link to="/" className="flex items-center gap-2 group" aria-label="Sri Balaji Group Home" style={{ textAlign: 'left' }}>
+          <img
+            src={logo}
+            alt="Sri Balaji Group Logo"
+            style={{
+              width: '50px',
+              height: '50px',
+              objectFit: 'contain',
+              display: 'block'
+            }}
+          />
+          <div className="flex flex-col">
+            <span className="text-xl font-bold tracking-tight leading-none" style={{ fontFamily: 'Playfair Display, serif', color: scrolled ? 'var(--text-primary)' : 'var(--text-primary)' }}>
+              SRI BALAJI
+            </span>
+            <span className="text-[10px] tracking-[0.2em] font-medium transition-colors leading-none mt-1" style={{ color: 'var(--text-secondary)' }}>
+              GROUP
+            </span>
+          </div>
         </Link>
 
         {/* Right controls */}
