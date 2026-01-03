@@ -1,0 +1,113 @@
+/* Navbar.css */
+
+/* Desktop Menu - Show on screens wider than 768px */
+@media (min-width: 769px) {
+    .desktop-menu {
+        display: flex !important;
+    }
+
+    .mobile-toggle {
+        display: none !important;
+    }
+
+    .mobile-menu {
+        display: none !important;
+    }
+}
+
+/* Mobile Menu - Show on screens 768px and smaller */
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none !important;
+    }
+
+    .mobile-toggle {
+        display: flex !important;
+    }
+}
+
+/* Fullscreen mobile menu overlay */
+.nav-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: var(--backdrop-blur);
+    backdrop-filter: var(--backdrop-blur);
+    padding: 20px 12px;
+}
+
+.nav-overlay-inner {
+    width: 100%;
+    max-width: 920px;
+    padding: 0 6px;
+    box-sizing: border-box;
+    max-height: calc(100vh - 48px);
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-link {
+    display: block;
+    padding: 18px 14px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.03);
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* wrapper that positions the close button and content */
+.nav-overlay-close-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.nav-overlay-close {
+    position: absolute;
+    right: 6px;
+    top: -6px;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.nav-overlay-list {
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 8px;
+    overflow-y: auto;
+    max-height: calc(100vh - 96px);
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-link:active,
+.nav-link:hover {
+    background: rgba(255,255,255,0.06);
+}
+
+/* Ensure header spacing is touch-friendly */
+.container > a, .container > div > button {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+/* Slightly increase tappable area for language/theme/hamburger on small screens */
+@media (max-width: 420px) {
+    .container > a, .container > div > button {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    .nav-link { padding: 14px 12px; font-size: 1.125rem; }
+}
