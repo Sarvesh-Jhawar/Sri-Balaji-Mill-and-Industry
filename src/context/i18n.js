@@ -86,10 +86,10 @@ const translations = {
       },
       certTitle: 'Certifications & Recognitions',
       certs: {
-        iso: { title: 'ISO 9001:2015', sub: 'Certified' },
-        fssai: { title: 'FSSAI', sub: 'Approved' },
-        govt: { title: 'Export House', sub: 'Government of India' },
-        star: { title: '5-Star Rated', sub: 'Export Quality' }
+        iso: { title: 'Premium Quality', sub: 'Guaranteed' },
+        fssai: { title: '100% Pure', sub: 'Natural & Healthy' },
+        govt: { title: 'Industry Leaders', sub: 'Best Practices' },
+        star: { title: 'Customer Choice', sub: 'Trusted Brand' }
       }
     },
     process: {
@@ -112,6 +112,10 @@ const translations = {
         baling: { title: 'Baling', desc: 'Secure baling with protective cotton cloth covers.' }
       },
       btnClose: 'Close'
+    },
+    disclaimer: {
+      title: 'Disclaimer',
+      text: 'Images used on this website are for representation purposes only and may be sourced from the internet. All rights belong to their respective owners.'
     }
   },
   hi: {
@@ -198,10 +202,10 @@ const translations = {
       },
       certTitle: 'प्रमाणपत्र और मान्यताएं',
       certs: {
-        iso: { title: 'ISO 9001:2015', sub: 'प्रमाणित' },
-        fssai: { title: 'FSSAI', sub: 'स्वीकृत' },
-        govt: { title: 'निर्यात गृह', sub: 'भारत सरकार' },
-        star: { title: '5-स्टार रेटेड', sub: 'निर्यात गुणवत्ता' }
+        iso: { title: 'उत्तम गुणवत्ता', sub: 'गारंटीकृत' },
+        fssai: { title: '१००% शुद्ध', sub: 'प्राकृतिक और स्वस्थ' },
+        govt: { title: 'उद्योग में अग्रणी', sub: 'सर्वोत्तम प्रथाएं' },
+        star: { title: 'ग्राहकों की पसंद', sub: 'विश्वसनीय ब्रांड' }
       }
     },
     process: {
@@ -224,6 +228,10 @@ const translations = {
         baling: { title: 'बेलिंग', desc: 'सुरक्षात्मक सूती कपड़े के कवर के साथ सुरक्षित बेलिंग।' }
       },
       btnClose: 'बंद करें'
+    },
+    disclaimer: {
+      title: 'अस्वीकरण',
+      text: 'इस वेबसाइट पर उपयोग की गई छवियां केवल प्रतिनिधित्व के उद्देश्यों के लिए हैं और इंटरनेट से ली जा सकती हैं। सभी अधिकार उनके संबंधित स्वामियों के हैं।'
     }
   },
   te: {
@@ -310,10 +318,10 @@ const translations = {
       },
       certTitle: 'ధృవపత్రాలు & గుర్తింపులు',
       certs: {
-        iso: { title: 'ISO 9001:2015', sub: 'ధృవీకరించబడింది' },
-        fssai: { title: 'FSSAI', sub: 'ఆమోదించబడింది' },
-        govt: { title: 'ఎగుమతి హౌస్', sub: 'భారత ప్రభుత్వం' },
-        star: { title: '5-స్టార్ రేటెడ్', sub: 'ఎగుమతి నాణ్యత' }
+        iso: { title: 'అత్యుత్తమ నాణ్యత', sub: 'హామీ ఇవ్వబడింది' },
+        fssai: { title: '100% స్వచ్ఛమైనది', sub: 'సహజమైన & ఆరోగ్యకరమైన' },
+        govt: { title: 'పరిశ్రమ నాయకులు', sub: 'ఉత్తమ పద్ధతులు' },
+        star: { title: 'కస్టమర్ ఎంపిక', sub: 'నమ్మదగిన బ్రాండ్' }
       }
     },
     process: {
@@ -336,6 +344,10 @@ const translations = {
         baling: { title: 'బేలింగ్', desc: 'రక్షణ కాటన్ వస్త్ర కవర్లతో సురక్షితమైన బేలింగ్.' }
       },
       btnClose: 'మూసివేయండి'
+    },
+    disclaimer: {
+      title: 'నిరాకరణ',
+      text: 'ఈ వెబ్‌సైట్‌లో ఉపయోగించిన చిత్రాలు ప్రాతినిధ్య ప్రయోజనాల కోసం మాత్రమే మరియు ఇంటర్నెట్ నుండి సేకరించబడవచ్చు. అన్ని హక్కులు వారి సంబంధిత యజమానులకు చెందుతాయి.'
     }
   }
 };
