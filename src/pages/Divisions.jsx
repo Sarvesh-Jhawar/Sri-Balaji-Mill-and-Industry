@@ -47,40 +47,40 @@ const Divisions = () => {
             id: 'castor-oil',
             name: t('divisions.products.castor.name'),
             desc: t('divisions.products.castor.desc'),
-            details: 'Our Castor Oil is produced using cold-press technology to retain maximum nutritional value and purity. Ideal for industrial applications, pharmaceuticals, and cosmetics.',
-            specs: ['Purity: 99.9%', 'Acid Value: < 2.0', 'Moisture: < 0.25%'],
+            details: t('divisions.products.castor.details'),
+            specs: t('divisions.products.castor.specs', { returnObjects: true }),
             image: castorImg
         },
         {
             id: 'cotton-oil',
             name: t('divisions.products.cotton.name'),
             desc: t('divisions.products.cotton.desc'),
-            details: 'Extracted from the finest cotton seeds, our oil undergoes a rigorous refining process to ensure safety and quality for culinary use.',
-            specs: ['Type: Refined', 'Color: Light Yellow', 'Free Fatty Acid: < 0.1%'],
+            details: t('divisions.products.cotton.details'),
+            specs: t('divisions.products.cotton.specs', { returnObjects: true }),
             image: cottonSeedImg
         },
         {
             id: 'groundnut',
             name: t('divisions.products.groundnut.name'),
             desc: t('divisions.products.groundnut.desc'),
-            details: 'We process and grade groundnuts based on size and quality (HPS). Our seeds are carefully sorted to meet international export standards.',
-            specs: ['Sizes: 40/50, 50/60, 60/70', 'Moisture: < 7%', 'Admixture: < 1%'],
+            details: t('divisions.products.groundnut.details'),
+            specs: t('divisions.products.groundnut.specs', { returnObjects: true }),
             image: groundnutImg
         },
         {
             id: 'briquettes',
             name: t('divisions.products.briquettes.name'),
             desc: t('divisions.products.briquettes.desc'),
-            details: 'A sustainable alternative to coal and wood. Our briquettes have high calorific value and low ash content, making them efficient for industrial boilers.',
-            specs: ['Calorific Value: > 4000 kcal/kg', 'Ash: < 5%', 'Moisture: < 10%'],
+            details: t('divisions.products.briquettes.details'),
+            specs: t('divisions.products.briquettes.specs', { returnObjects: true }),
             image: biofuelImg
         },
         {
             id: 'maize',
             name: t('divisions.products.maize.name'),
             desc: t('divisions.products.maize.desc'),
-            details: 'High-quality maize powder processed for optimal animal nutrition. Rich in carbohydrates and essential nutrients.',
-            specs: ['Protein: > 9%', 'Fiber: < 3%', 'Fat: > 3.5%'],
+            details: t('divisions.products.maize.details'),
+            specs: t('divisions.products.maize.specs', { returnObjects: true }),
             image: maizeImg
         }
     ];
@@ -90,16 +90,16 @@ const Divisions = () => {
             id: 'ginning',
             name: t('divisions.products.ginning.name'),
             desc: t('divisions.products.ginning.desc'),
-            details: 'Our modern ginning units ensure minimal fiber damage and maximum cleaning, resulting in superior quality cotton lint.',
-            specs: ['Length: 28mm+', 'Mic: 3.5-4.9', 'Strength: 28+ GPT'],
+            details: t('divisions.products.ginning.details'),
+            specs: t('divisions.products.ginning.specs', { returnObjects: true }),
             image: cottonGinningImg
         },
         {
             id: 'lint',
             name: t('divisions.products.lint.name'),
             desc: t('divisions.products.lint.desc'),
-            details: 'High-grade lint cotton ready for spinning. We supply to major textile mills across the region.',
-            specs: ['Trash: < 3%', 'Moisture: < 8.5%', 'Grade: S-6 / Shankar-6'],
+            details: t('divisions.products.lint.details'),
+            specs: t('divisions.products.lint.specs', { returnObjects: true }),
             image: lintImg
         }
     ];

@@ -59,13 +59,48 @@ const translations = {
         desc: 'Premium Cotton Ginning & Pressing'
       },
       products: {
-        castor: { name: 'Castor Seed Oil', desc: 'High-purity castor oil extracted from premium seeds.' },
-        cotton: { name: 'Cotton Seed Oil', desc: 'Refined edible oil known for its neutral flavor.' },
-        groundnut: { name: 'Groundnut Seed', desc: 'Graded export-quality groundnuts.' },
-        briquettes: { name: 'Biofuel Briquettes', desc: 'Eco-friendly fuel made from groundnut husk.' },
-        maize: { name: 'Maize Powder', desc: 'Nutritious feed for animals.' },
-        ginning: { name: 'Ginned Cotton', desc: 'Separating cotton fibers from seeds with precision.' },
-        lint: { name: 'Lint Cotton', desc: 'Pure cotton producing without seeds.' }
+        castor: {
+          name: 'Castor Seed Oil',
+          desc: 'High-purity castor oil extracted from premium seeds.',
+          details: 'Our Castor Oil is produced using cold-press technology to retain maximum nutritional value and purity. Ideal for industrial applications, pharmaceuticals, and cosmetics.',
+          specs: ['Purity: 99.9%', 'Acid Value: < 2.0', 'Moisture: < 0.25%']
+        },
+        cotton: {
+          name: 'Cotton Seed Oil',
+          desc: 'Refined edible oil known for its neutral flavor.',
+          details: 'Extracted from the finest cotton seeds, our oil undergoes a rigorous refining process to ensure safety and quality for culinary use.',
+          specs: ['Type: Refined', 'Color: Light Yellow', 'Free Fatty Acid: < 0.1%']
+        },
+        groundnut: {
+          name: 'Groundnut Seed',
+          desc: 'Graded export-quality groundnuts.',
+          details: 'We process and grade groundnuts based on size and quality (HPS). Our seeds are carefully sorted to meet international export standards.',
+          specs: ['Sizes: 40/50, 50/60, 60/70', 'Moisture: < 7%', 'Admixture: < 1%']
+        },
+        briquettes: {
+          name: 'Biofuel Briquettes',
+          desc: 'Eco-friendly fuel made from groundnut husk.',
+          details: 'A sustainable alternative to coal and wood. Our briquettes have high calorific value and low ash content, making them efficient for industrial boilers.',
+          specs: ['Calorific Value: > 4000 kcal/kg', 'Ash: < 5%', 'Moisture: < 10%']
+        },
+        maize: {
+          name: 'Maize Powder',
+          desc: 'Nutritious feed for animals.',
+          details: 'High-quality maize powder processed for optimal animal nutrition. Rich in carbohydrates and essential nutrients.',
+          specs: ['Protein: > 9%', 'Fiber: < 3%', 'Fat: > 3.5%']
+        },
+        ginning: {
+          name: 'Ginned Cotton',
+          desc: 'Separating cotton fibers from seeds with precision.',
+          details: 'Our modern ginning units ensure minimal fiber damage and maximum cleaning, resulting in superior quality cotton lint.',
+          specs: ['Length: 28mm+', 'Mic: 3.5-4.9', 'Strength: 28+ GPT']
+        },
+        lint: {
+          name: 'Lint Cotton',
+          desc: 'Pure cotton producing without seeds.',
+          details: 'High-grade lint cotton ready for spinning. We supply to major textile mills across the region.',
+          specs: ['Trash: < 3%', 'Moisture: < 8.5%', 'Grade: S-6 / Shankar-6']
+        }
       },
       btnView: 'View Details',
       btnClose: 'Close Details',
@@ -175,13 +210,48 @@ const translations = {
         desc: 'प्रीमियम कॉटन गिनिंग और प्रेसिंग'
       },
       products: {
-        castor: { name: 'अरंडी का तेल', desc: 'प्रीमियम बीजों से निकाला गया उच्च शुद्धता वाला अरंडी का तेल।' },
-        cotton: { name: 'बिनौला तेल', desc: 'अपने तटस्थ स्वाद के लिए जाना जाने वाला रिफाइंड खाद्य तेल।' },
-        groundnut: { name: 'मूंगफली बीज', desc: 'ग्रेडेड निर्यात गुणवत्ता वाली मूंगफली।' },
-        briquettes: { name: 'बायोफ्यूल ब्रिकेट्स', desc: 'मूंगफली के छिलके से बना पर्यावरण के अनुकूल ईंधन।' },
-        maize: { name: 'मक्का पाउडर', desc: 'जानवरों के लिए पौष्टिक चारा।' },
-        ginning: { name: 'गिन्नीड कपास', desc: 'कपास के रेशों को बीजों से सटीकता के साथ अलग करना।' },
-        lint: { name: 'लिंट कॉटन', desc: 'बीजों के बिना शुद्ध कपास का उत्पादन।' }
+        castor: {
+          name: 'अरंडी का तेल',
+          desc: 'प्रीमियम बीजों से निकाला गया उच्च शुद्धता वाला अरंडी का तेल।',
+          details: 'हमारा अरंडी का तेल कोल्ड-प्रेस तकनीक का उपयोग करके उत्पादित किया जाता है ताकि अधिकतम पोषक मूल्य और शुद्धता बनी रहे। औद्योगिक अनुप्रयोगों, फार्मास्यूटिकल्स और सौंदर्य प्रसाधनों के लिए आदर्श।',
+          specs: ['शुद्धता: 99.9%', 'एसिड मान: < 2.0', 'नमी: < 0.25%']
+        },
+        cotton: {
+          name: 'बिनौला तेल',
+          desc: 'अपने तटस्थ स्वाद के लिए जाना जाने वाला रिफाइंड खाद्य तेल।',
+          details: 'बेहतरीन कपास के बीजों से निकाला गया, हमारा तेल पाक उपयोग के लिए सुरक्षा और गुणवत्ता सुनिश्चित करने के लिए एक कठोर शोधन प्रक्रिया से गुजरता है।',
+          specs: ['प्रकार: रिफाइंड', 'रंग: हल्का पीला', 'फ्री फैटी एसिड: < 0.1%']
+        },
+        groundnut: {
+          name: 'मूंगफली बीज',
+          desc: 'ग्रेडेड निर्यात गुणवत्ता वाली मूंगफली।',
+          details: 'हम आकार और गुणवत्ता (HPS) के आधार पर मूंगफली को संसाधित और ग्रेड करते हैं। हमारे बीज अंतरराष्ट्रीय निर्यात मानकों को पूरा करने के लिए सावधानीपूर्वक छांटे जाते हैं।',
+          specs: ['आकार: 40/50, 50/60, 60/70', 'नमी: < 7%', 'मिश्रण: < 1%']
+        },
+        briquettes: {
+          name: 'बायोफ्यूल ब्रिकेट्स',
+          desc: 'मूंगफली के छिलके से बना पर्यावरण के अनुकूल ईंधन।',
+          details: 'कोयले और लकड़ी का एक स्थायी विकल्प। हमारे ब्रिकेट्स में उच्च कैलोरी मान और कम राख सामग्री होती है, जो उन्हें औद्योगिक बॉयलरों के लिए कुशल बनाती है।',
+          specs: ['कैलोरी मान: > 4000 kcal/kg', 'राख: < 5%', 'नमी: < 10%']
+        },
+        maize: {
+          name: 'मक्का पाउडर',
+          desc: 'जानवरों के लिए पौष्टिक चारा।',
+          details: 'इष्टतम पशु पोषण के लिए संसाधित उच्च गुणवत्ता वाला मक्का पाउडर। कार्बोहाइड्रेट और आवश्यक पोषक तत्वों से भरपूर।',
+          specs: ['प्रोटीन: > 9%', 'फाइबर: < 3%', 'वसा: > 3.5%']
+        },
+        ginning: {
+          name: 'गिन्नीड कपास',
+          desc: 'कपास के रेशों को बीजों से सटीकता के साथ अलग करना।',
+          details: 'हमारी आधुनिक जिनिंग इकाइयाँ न्यूनतम फाइबर क्षति और अधिकतम सफाई सुनिश्चित करती हैं, जिसके परिणामस्वरूप बेहतर गुणवत्ता वाला लिंट कॉटन मिलता है।',
+          specs: ['लंबाई: 28mm+', 'माइक: 3.5-4.9', 'ताकत: 28+ GPT']
+        },
+        lint: {
+          name: 'लिंट कॉटन',
+          desc: 'बीजों के बिना शुद्ध कपास का उत्पादन।',
+          details: 'कताई के लिए तैयार उच्च-ग्रेड लिंट कॉटन। हम पूरे क्षेत्र में प्रमुख कपड़ा मिलों को आपूर्ति करते हैं।',
+          specs: ['कचरा: < 3%', 'नमी: < 8.5%', 'ग्रेड: S-6 / शंकर-6']
+        }
       },
       btnView: 'विवरण देखें',
       btnClose: 'विवरण बंद करें',
@@ -291,13 +361,48 @@ const translations = {
         desc: 'ప్రీమియం కాటన్ జిన్నింగ్ & ప్రెస్సింగ్'
       },
       products: {
-        castor: { name: 'ఆముదము నూనె', desc: 'ప్రీమియం విత్తనాల నుండి సేకరించిన అధిక స్వచ్ఛత గల ఆముదము నూనె.' },
-        cotton: { name: 'పత్తి గింజల నూనె', desc: 'తటస్థ రుచికి ప్రసిద్ధి చెందిన శుద్ధి చేసిన వంట నూనె.' },
-        groundnut: { name: 'వేరుశెనగ విత్తనం', desc: 'గ్రేడెడ్ ఎగుమతి నాణ్యత గల వేరుశెనగలు.' },
-        briquettes: { name: 'బయోఫ్యూయల్ బ్రికెట్స్', desc: 'వేరుశెనగ పొట్టుతో తయారు చేసిన పర్యావరణ అనుకూల ఇంధనం.' },
-        maize: { name: 'మొక్కజొన్న పొడి', desc: 'జంతువులకు పోషకమైన మేత.' },
-        ginning: { name: 'జిన్నెడ్ కాటన్', desc: 'విత్తనాల నుండి పత్తి నూలును ఖచ్చితత్వంతో వేరు చేయడం.' },
-        lint: { name: 'లింట్ కాటన్', desc: 'విత్తనాలు లేకుండా స్వచ్ఛమైన పత్తిని ఉత్పత్తి చేయడం.' }
+        castor: {
+          name: 'ఆముదము నూనె',
+          desc: 'ప్రీమియం విత్తనాల నుండి సేకరించిన అధిక స్వచ్ఛత గల ఆముదము నూనె.',
+          details: 'మా కాస్టర్ ఆయిల్ గరిష్ట పోషక విలువ మరియు స్వచ్ఛతను నిలుపుకోవడానికి కోల్డ్-ప్రెస్ టెక్నాలజీని ఉపయోగించి ఉత్పత్తి చేయబడుతుంది. పారిశ్రామిక అనువర్తనాలు, ఫార్మాస్యూటికల్స్ మరియు సౌందర్య సాధనాలకు ఆదర్శం.',
+          specs: ['స్వచ్ఛత: 99.9%', 'యాసిడ్ విలువ: < 2.0', 'తేమ: < 0.25%']
+        },
+        cotton: {
+          name: 'పత్తి గింజల నూనె',
+          desc: 'తటస్థ రుచికి ప్రసిద్ధి చెందిన శుద్ధి చేసిన వంట నూనె.',
+          details: 'అత్యుత్తమ పత్తి గింజల నుండి సేకరించిన మా నూనె, వంటగది ఉపయోగానికి భద్రత మరియు నాణ్యతను నిర్ధారించడానికి కఠినమైన శుద్ధి ప్రక్రియకు లోనవుతుంది.',
+          specs: ['రకం: శుద్ధి చేసినది', 'రంగు: లేత పసుపు', 'ఫ్రీ ఫ్యాటీ యాసిడ్: < 0.1%']
+        },
+        groundnut: {
+          name: 'వేరుశెనగ విత్తనం',
+          desc: 'గ్రేడెడ్ ఎగుమతి నాణ్యత గల వేరుశెనగలు.',
+          details: 'మేము పరిమాణం మరియు నాణ్యత (HPS) ఆధారంగా వేరుశెనగలను ప్రాసెస్ చేసి గ్రేడ్ చేస్తాము. అంతర్జాతీయ ఎగుమతి ప్రమాణాలకు అనుగుణంగా మా విత్తనాలు జాగ్రత్తగా వేరు చేయబడతాయి.',
+          specs: ['సైజులు: 40/50, 50/60, 60/70', 'తేమ: < 7%', 'మిశ్రమం: < 1%']
+        },
+        briquettes: {
+          name: 'బయోఫ్యూయల్ బ్రికెట్స్',
+          desc: 'వేరుశెనగ పొట్టుతో తయారు చేసిన పర్యావరణ అనుకూల ఇంధనం.',
+          details: 'బొగ్గు మరియు చెక్కకు సుస్థిర ప్రత్యామ్నాయం. మా బ్రికెట్లు అధిక కేలరీ విలువ మరియు తక్కువ బూడిదను కలిగి ఉంటాయి, ఇవి పారిశ్రామిక బాయిలర్లకు సమర్థవంతంగా పనిచేస్తాయి.',
+          specs: ['కేలరీ విలువ: > 4000 kcal/kg', 'బూడిద: < 5%', 'తేమ: < 10%']
+        },
+        maize: {
+          name: 'మొక్కజొన్న పొడి',
+          desc: 'జంతువులకు పోషకమైన మేత.',
+          details: 'సరైన జంతు పోషణ కోసం ప్రాసెస్ చేయబడిన అధిక-నాణ్యత మొక్కజొన్న పొడి. కార్బోహైడ్రేట్లు మరియు అవసరమైన పోషకాలతో సమృద్ధిగా ఉంటుంది.',
+          specs: ['ప్రోటీన్: > 9%', 'ఫైబర్: < 3%', 'కొవ్వు: > 3.5%']
+        },
+        ginning: {
+          name: 'జిన్నెడ్ కాటన్',
+          desc: 'విత్తనాల నుండి పత్తి నూలును ఖచ్చితత్వంతో వేరు చేయడం.',
+          details: 'మా ఆధునిక జిన్నింగ్ యూనిట్లు కనిష్ట ఫైబర్ నష్టం మరియు గరిష్ట శుభ్రతను నిర్ధారిస్తాయి, దీని ఫలితంగా అత్యుత్తమ నాణ్యత గల కాటన్ లింట్ లభిస్తుంది.',
+          specs: ['పొడవు: 28mm+', 'మైక్: 3.5-4.9', 'బలం: 28+ GPT']
+        },
+        lint: {
+          name: 'లింట్ కాటన్',
+          desc: 'విత్తనాలు లేకుండా స్వచ్ఛమైన పత్తిని ఉత్పత్తి చేయడం.',
+          details: 'స్పిన్నింగ్ కోసం సిద్ధంగా ఉన్న హై-గ్రేడ్ లింట్ కాటన్. మేము ప్రాంతం అంతటా ఉన్న ప్రధాన టెక్స్టైల్ మిల్లులకు సరఫరా చేస్తాము.',
+          specs: ['చెత్త: < 3%', 'తేమ: < 8.5%', 'గ్రేడ్: S-6 / శంకర్-6']
+        }
       },
       btnView: 'వివరాలు చూడండి',
       btnClose: 'వివరాలు మూసివేయండి',
