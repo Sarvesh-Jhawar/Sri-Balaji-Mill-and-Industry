@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Award, Target, Eye, Truck, Cpu, Leaf } from 'lucide-react';
 import Section from '../components/UI/Section';
@@ -10,6 +11,12 @@ const About = () => {
 
     return (
         <>
+            <Helmet>
+                <title>About Sri Balaji Group | Agro-Processing Leaders in Jadcherla, Telangana</title>
+                <meta name="description" content="Sri Balaji Group - Trusted agro-processing company in Jadcherla and Manyamkonda. Decades of excellence in oil milling, cotton ginning, and sustainable manufacturing in Mahbubnagar, Telangana." />
+                <meta name="keywords" content="Sri Balaji Group history, oil mill Jadcherla, cotton ginning Manyamkonda, agro processing Telangana, Mahbubnagar industry, sustainable manufacturing" />
+                <link rel="canonical" href="https://sri-balaji-mill.vercel.app/about" />
+            </Helmet>
             {/* Header Section */}
             <div className="relative pt-32 pb-20 bg-[var(--bg-secondary)] overflow-hidden">
                 <div className="absolute inset-0 bg-pattern opacity-10"></div>

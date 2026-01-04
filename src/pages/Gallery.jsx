@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 import Section from '../components/UI/Section';
@@ -17,6 +18,12 @@ const Gallery = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Factory Gallery & Infrastructure | Sri Balaji Oil Mill & Industries</title>
+                <meta name="description" content="Explore Sri Balaji Group's world-class manufacturing facilities in Jadcherla and Manyamkonda. Modern oil mill machinery, cotton ginning equipment, and industrial infrastructure." />
+                <meta name="keywords" content="oil mill factory Jadcherla, cotton ginning infrastructure Manyamkonda, agro processing facility Telangana, industrial machinery Mahbubnagar" />
+                <link rel="canonical" href="https://sri-balaji-mill.vercel.app/gallery" />
+            </Helmet>
             <div className="relative pt-32 pb-20 bg-[var(--bg-secondary)] overflow-hidden">
                 <div className="absolute inset-0 bg-pattern opacity-10"></div>
                 <div className="container text-center relative z-10">

@@ -44,7 +44,7 @@ const Footer = () => {
                         <div className="flex items-start gap-2" style={{ color: 'var(--text-secondary)' }}>
                             <MapPin size={16} className="mt-1 flex-shrink-0" style={{ color: 'var(--accent-primary)' }} />
                             <a href="https://maps.app.goo.gl/KkCz75CstNW7k2HC7" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', display: 'inline-flex', gap: 6, alignItems: 'center' }} aria-label="Open Sri Balaji Oil Mill location">
-                                <span>Near Railway Station, Jadcherla, Telangana</span>
+                                <span>Near Railway Station, Jadcherla, Mahbubnagar District - 509301, Telangana</span>
                                 <ExternalLink size={14} className="flex-shrink-0" />
                             </a>
                         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                         <div className="flex items-start gap-2" style={{ color: 'var(--text-secondary)' }}>
                             <MapPin size={16} className="mt-1 flex-shrink-0" style={{ color: 'var(--accent-secondary)' }} />
                             <a href="https://maps.app.goo.gl/DXvceUEow9mMn8JP6" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)', display: 'inline-flex', gap: 6, alignItems: 'center' }} aria-label="Open Balaji Industries location">
-                                <span>Appaipally Village,Mahabubnagar,Telangana</span>
+                                <span>Appaipally Village, Near Manyamkonda, Mahbubnagar District - 509001, Telangana</span>
                                 <ExternalLink size={14} className="flex-shrink-0" />
                             </a>
                         </div>

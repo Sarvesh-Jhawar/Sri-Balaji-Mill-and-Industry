@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Droplets, Factory, Info, CheckCircle, Package } from 'lucide-react';
 import Section from '../components/UI/Section';
@@ -17,6 +18,17 @@ import groundnutImg from '../assets/product-images/ground-nut.jpg';
 import lintImg from '../assets/product-images/Lint-Cotton.jpg';
 import maizeImg from '../assets/product-images/maize-cattle-feed.jpeg';
 import cottonGinningImg from '../assets/product-images/Cotton-Ginning-img.jpg';
+
+// SEO-optimized alt texts with location keywords
+const productAltTexts = {
+    castor: "Pure cold-pressed castor oil production at Sri Balaji Oil Mill Jadcherla",
+    cotton: "Premium cotton seed oil manufacturing in Mahbubnagar Telangana",
+    groundnut: "Export quality groundnut seed processing at Sri Balaji Oil Mill Jadcherla",
+    briquettes: "High-efficiency biofuel briquettes (brigade) manufacturing in Mahbubnagar",
+    maize: "Quality maize cattle feed production at Jadcherla oil mill",
+    ginning: "Industrial cotton ginning and pressing unit near Manyamkonda Telangana",
+    lint: "Premium S-6 Lint Cotton supplier Balaji Industries Manyamkonda"
+};
 
 const Divisions = () => {
     const { t } = useTranslation();
@@ -49,7 +61,8 @@ const Divisions = () => {
             desc: t('divisions.products.castor.desc'),
             details: t('divisions.products.castor.details'),
             specs: t('divisions.products.castor.specs', { returnObjects: true }),
-            image: castorImg
+            image: castorImg,
+            altText: productAltTexts.castor
         },
         {
             id: 'cotton-oil',
@@ -57,7 +70,8 @@ const Divisions = () => {
             desc: t('divisions.products.cotton.desc'),
             details: t('divisions.products.cotton.details'),
             specs: t('divisions.products.cotton.specs', { returnObjects: true }),
-            image: cottonSeedImg
+            image: cottonSeedImg,
+            altText: productAltTexts.cotton
         },
         {
             id: 'groundnut',
@@ -65,7 +79,8 @@ const Divisions = () => {
             desc: t('divisions.products.groundnut.desc'),
             details: t('divisions.products.groundnut.details'),
             specs: t('divisions.products.groundnut.specs', { returnObjects: true }),
-            image: groundnutImg
+            image: groundnutImg,
+            altText: productAltTexts.groundnut
         },
         {
             id: 'briquettes',
@@ -73,7 +88,8 @@ const Divisions = () => {
             desc: t('divisions.products.briquettes.desc'),
             details: t('divisions.products.briquettes.details'),
             specs: t('divisions.products.briquettes.specs', { returnObjects: true }),
-            image: biofuelImg
+            image: biofuelImg,
+            altText: productAltTexts.briquettes
         },
         {
             id: 'maize',
@@ -81,7 +97,8 @@ const Divisions = () => {
             desc: t('divisions.products.maize.desc'),
             details: t('divisions.products.maize.details'),
             specs: t('divisions.products.maize.specs', { returnObjects: true }),
-            image: maizeImg
+            image: maizeImg,
+            altText: productAltTexts.maize
         }
     ];
 
@@ -92,7 +109,8 @@ const Divisions = () => {
             desc: t('divisions.products.ginning.desc'),
             details: t('divisions.products.ginning.details'),
             specs: t('divisions.products.ginning.specs', { returnObjects: true }),
-            image: cottonGinningImg
+            image: cottonGinningImg,
+            altText: productAltTexts.ginning
         },
         {
             id: 'lint',
@@ -100,12 +118,19 @@ const Divisions = () => {
             desc: t('divisions.products.lint.desc'),
             details: t('divisions.products.lint.details'),
             specs: t('divisions.products.lint.specs', { returnObjects: true }),
-            image: lintImg
+            image: lintImg,
+            altText: productAltTexts.lint
         }
     ];
 
     return (
         <>
+            <Helmet>
+                <title>Groundnut Seeds & Biofuel Briquettes Manufacturer | Sri Balaji Group</title>
+                <meta name="description" content="Top supplier of export-quality Groundnut seeds and eco-friendly Biofuel Briquettes (Brigade) in Jadcherla. Advanced oil milling and cotton ginning industrial divisions near Manyamkonda, Mahbubnagar." />
+                <meta name="keywords" content="groundnut seeds Jadcherla, biofuel briquettes manufacturer, cotton lint supplier Manyamkonda, maize cattle feed, castor oil factory, cotton seed oil Telangana" />
+                <link rel="canonical" href="https://sri-balaji-mill.vercel.app/divisions" />
+            </Helmet>
             <div className="relative pt-32 pb-20 bg-[var(--bg-secondary)] overflow-hidden">
                 <div className="absolute inset-0 bg-pattern opacity-10"></div>
                 <div className="container text-center relative z-10">
@@ -130,7 +155,7 @@ const Divisions = () => {
                     {oilMillProducts.map(product => (
                         <Card key={product.id} className="flex flex-col h-full p-0 group" noPadding={true}>
                             <div className="h-64 overflow-hidden relative">
-                                <img src={product.image} alt={product.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                                <img src={product.image} alt={product.altText || product.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
                             </div>
                             <div className="p-8 flex flex-col flex-grow">
@@ -161,7 +186,7 @@ const Divisions = () => {
                     {industryProducts.map(product => (
                         <Card key={product.id} className="flex flex-col h-full p-0 group" noPadding={true}>
                             <div className="h-64 overflow-hidden relative">
-                                <img src={product.image} alt={product.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                                <img src={product.image} alt={product.altText || product.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
                             </div>
                             <div className="p-8 flex flex-col flex-grow">

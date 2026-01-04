@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
 import Section from '../components/UI/Section';
 import Card from '../components/UI/Card';
@@ -12,6 +13,12 @@ const Contact = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Contact Sri Balaji Oil Mill Jadcherla & Balaji Industries Manyamkonda</title>
+                <meta name="description" content="Contact Sri Balaji Oil Mill near Railway Station, Jadcherla, Mahbubnagar District - 509301. Balaji Industries Cotton Ginning at Appaipally Village near Manyamkonda, Telangana." />
+                <meta name="keywords" content="Sri Balaji Oil Mill contact, Jadcherla oil mill phone, Balaji Industries address, Manyamkonda cotton ginning, Mahbubnagar business, Telangana agro industry" />
+                <link rel="canonical" href="https://sri-balaji-mill.vercel.app/contact" />
+            </Helmet>
             <div className="relative pt-32 pb-20 bg-[var(--bg-secondary)] overflow-hidden">
                 <div className="absolute inset-0 bg-pattern opacity-10"></div>
                 <div className="container text-center relative z-10">

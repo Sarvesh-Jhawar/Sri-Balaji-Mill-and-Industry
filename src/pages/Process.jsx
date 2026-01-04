@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Package, Truck, Settings, Filter, Layers, CheckCircle, Info } from 'lucide-react';
@@ -120,6 +121,12 @@ const Process = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Groundnut & Cotton Processing | Sri Balaji Oil Mill Jadcherla</title>
+                <meta name="description" content="Step-by-step groundnut processing and cotton ginning at Sri Balaji Group. From procurement to dispatch, experience our quality manufacturing process in Jadcherla and Manyamkonda." />
+                <meta name="keywords" content="groundnut processing Jadcherla, cotton ginning process Manyamkonda, oil mill manufacturing, agro processing steps Telangana, quality cotton baling" />
+                <link rel="canonical" href="https://sri-balaji-mill.vercel.app/process" />
+            </Helmet>
             <div className="relative pt-32 pb-20 bg-[var(--bg-secondary)] overflow-hidden">
                 <div className="absolute inset-0 bg-pattern opacity-10"></div>
                 <div className="container text-center relative z-10">

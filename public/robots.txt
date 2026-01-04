@@ -1,0 +1,9 @@
+# Robots.txt for Sri Balaji Group Website
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sri-balaji-mill.vercel.app/sitemap.xml
+
+# Disallow admin or private paths (none currently)
+# Disallow: /admin/
