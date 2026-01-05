@@ -18,7 +18,7 @@ const translations = {
       divisions: {
         oilMill: 'Sri Balaji Oil Mill',
         oilMillDesc: 'Castor oil, cotton seed oil and bio-products',
-        industries: 'Sri Balaji Industries',
+        industries: 'Balaji Industries',
         industriesDesc: 'Ginning, pressing and premium lint cotton'
       },
       contactSales: 'Contact Sales'
@@ -62,25 +62,25 @@ const translations = {
         castor: {
           name: 'Castor Seed Oil',
           desc: 'High-purity castor oil extracted from premium seeds.',
-          details: 'Our Castor Oil is produced using cold-press technology to retain maximum nutritional value and purity. Ideal for industrial applications, pharmaceuticals, and cosmetics.',
+          details: 'Our Castor Oil is produced to retain maximum nutritional value and purity. Ideal for industrial applications, pharmaceuticals, and cosmetics.',
           specs: ['Purity: 99.9%', 'Acid Value: < 2.0', 'Moisture: < 0.25%']
         },
         cotton: {
           name: 'Cotton Seed Oil',
-          desc: 'Refined edible oil known for its neutral flavor.',
-          details: 'Extracted from the finest cotton seeds, our oil undergoes a rigorous refining process to ensure safety and quality for culinary use.',
-          specs: ['Type: Refined', 'Color: Light Yellow', 'Free Fatty Acid: < 0.1%']
+          desc: 'Crude oil extraction.',
+          details: 'Extracted from the finest cotton seeds, our crude oil preserves natural properties.',
+          specs: ['Type: Crude Oil', 'Color: Light Yellow', 'Free Fatty Acid: < 1.5%']
         },
         groundnut: {
           name: 'Groundnut Seed',
           desc: 'Graded export-quality groundnuts.',
           details: 'We process and grade groundnuts based on size and quality (HPS). Our seeds are carefully sorted to meet international export standards.',
-          specs: ['Sizes: 40/50, 50/60, 60/70', 'Moisture: < 7%', 'Admixture: < 1%']
+          specs: ['Sizes: 50/60, 60/70, 80/90', 'Moisture: < 8%', 'Admixture: < 1%']
         },
         briquettes: {
           name: 'Biofuel Briquettes',
           desc: 'Eco-friendly fuel made from groundnut husk.',
-          details: 'A sustainable alternative to coal and wood. Our briquettes have high calorific value and low ash content, making them efficient for industrial boilers.',
+          details: 'Made from groundnut husk, a sustainable alternative to coal and wood. Our briquettes have high calorific value and low ash content, making them efficient for industrial boilers.',
           specs: ['Calorific Value: > 4000 kcal/kg', 'Ash: < 5%', 'Moisture: < 10%']
         },
         maize: {
@@ -93,7 +93,7 @@ const translations = {
           name: 'Ginned Cotton',
           desc: 'Separating cotton fibers from seeds with precision.',
           details: 'Our modern ginning units ensure minimal fiber damage and maximum cleaning, resulting in superior quality cotton lint.',
-          specs: ['Length: 28mm+', 'Mic: 3.5-4.9', 'Strength: 28+ GPT']
+          specs: ['Length: 29mm+', 'Mic: 3.5-4.9', 'Strength: 28+ GPT']
         },
         lint: {
           name: 'Lint Cotton',
@@ -169,7 +169,7 @@ const translations = {
       divisions: {
         oilMill: 'श्री बालाजी ऑयल मिल',
         oilMillDesc: 'कास्टोर तेल, कॉटन सीड तेल और बायो-उत्पाद',
-        industries: 'श्री बालाजी इंडस्ट्रीज',
+        industries: 'बालाजी इंडस्ट्रीज',
         industriesDesc: 'जिन्निंग, प्रेसिंग और प्रीमियम लिंट कॉटन'
       },
       contactSales: 'संपर्क बिक्री'
@@ -213,20 +213,20 @@ const translations = {
         castor: {
           name: 'अरंडी का तेल',
           desc: 'प्रीमियम बीजों से निकाला गया उच्च शुद्धता वाला अरंडी का तेल।',
-          details: 'हमारा अरंडी का तेल कोल्ड-प्रेस तकनीक का उपयोग करके उत्पादित किया जाता है ताकि अधिकतम पोषक मूल्य और शुद्धता बनी रहे। औद्योगिक अनुप्रयोगों, फार्मास्यूटिकल्स और सौंदर्य प्रसाधनों के लिए आदर्श।',
+          details: 'हमारा अरंडी का तेल अधिकतम पोषक मूल्य और शुद्धता बनाए रखने के लिए उत्पादित किया जाता है। औद्योगिक अनुप्रयोगों, फार्मास्यूटिकल्स और सौंदर्य प्रसाधनों के लिए आदर्श।',
           specs: ['शुद्धता: 99.9%', 'एसिड मान: < 2.0', 'नमी: < 0.25%']
         },
         cotton: {
           name: 'बिनौला तेल',
-          desc: 'अपने तटस्थ स्वाद के लिए जाना जाने वाला रिफाइंड खाद्य तेल।',
-          details: 'बेहतरीन कपास के बीजों से निकाला गया, हमारा तेल पाक उपयोग के लिए सुरक्षा और गुणवत्ता सुनिश्चित करने के लिए एक कठोर शोधन प्रक्रिया से गुजरता है।',
-          specs: ['प्रकार: रिफाइंड', 'रंग: हल्का पीला', 'फ्री फैटी एसिड: < 0.1%']
+          desc: 'कच्चा तेल (Crude Oil)।',
+          details: 'बेहतरीन कपास के बीजों से निकाला गया, हमारा तेल अपने प्राकृतिक गुणों को बनाए रखता है।',
+          specs: ['प्रकार: कच्चा तेल', 'रंग: हल्का पीला', 'फ्री फैटी एसिड: < 1.0%']
         },
         groundnut: {
           name: 'मूंगफली बीज',
           desc: 'ग्रेडेड निर्यात गुणवत्ता वाली मूंगफली।',
           details: 'हम आकार और गुणवत्ता (HPS) के आधार पर मूंगफली को संसाधित और ग्रेड करते हैं। हमारे बीज अंतरराष्ट्रीय निर्यात मानकों को पूरा करने के लिए सावधानीपूर्वक छांटे जाते हैं।',
-          specs: ['आकार: 40/50, 50/60, 60/70', 'नमी: < 7%', 'मिश्रण: < 1%']
+          specs: ['आकार: 50/60, 60/70, 80/90', 'नमी: < 8%', 'मिश्रण: < 1%']
         },
         briquettes: {
           name: 'बायोफ्यूल ब्रिकेट्स',
@@ -244,7 +244,7 @@ const translations = {
           name: 'गिन्नीड कपास',
           desc: 'कपास के रेशों को बीजों से सटीकता के साथ अलग करना।',
           details: 'हमारी आधुनिक जिनिंग इकाइयाँ न्यूनतम फाइबर क्षति और अधिकतम सफाई सुनिश्चित करती हैं, जिसके परिणामस्वरूप बेहतर गुणवत्ता वाला लिंट कॉटन मिलता है।',
-          specs: ['लंबाई: 28mm+', 'माइक: 3.5-4.9', 'ताकत: 28+ GPT']
+          specs: ['लंबाई: 29mm+', 'माइक: 3.5-4.9', 'ताकत: 28+ GPT']
         },
         lint: {
           name: 'लिंट कॉटन',
@@ -320,7 +320,7 @@ const translations = {
       divisions: {
         oilMill: 'శ్రీ బాలాజీ ఆయిల్ మిల్',
         oilMillDesc: 'కాస్టర్ ఆయిల్, కాటన్ సీడ్ ఆయిల్ మరియు బయో ఉత్పత్తులు',
-        industries: 'శ్రీ బాలాజీ ఇండస్ట్రీస్',
+        industries: 'బాలాజీ ఇండస్ట్రీస్',
         industriesDesc: 'జిన్నింగ్, ప్రెస్సింగ్ మరియు ప్రీమియం లింట్ కాటన్'
       },
       contactSales: 'స్పర్శ విక్రయం'
@@ -364,20 +364,20 @@ const translations = {
         castor: {
           name: 'ఆముదము నూనె',
           desc: 'ప్రీమియం విత్తనాల నుండి సేకరించిన అధిక స్వచ్ఛత గల ఆముదము నూనె.',
-          details: 'మా కాస్టర్ ఆయిల్ గరిష్ట పోషక విలువ మరియు స్వచ్ఛతను నిలుపుకోవడానికి కోల్డ్-ప్రెస్ టెక్నాలజీని ఉపయోగించి ఉత్పత్తి చేయబడుతుంది. పారిశ్రామిక అనువర్తనాలు, ఫార్మాస్యూటికల్స్ మరియు సౌందర్య సాధనాలకు ఆదర్శం.',
+          details: 'మా కాస్టర్ ఆయిల్ గరిష్ట పోషక విలువ మరియు స్వచ్ఛతను నిలుపుకోవడానికి ఉత్పత్తి చేయబడుతుంది. పారిశ్రామిక అనువర్తనాలు, ఫార్మాస్యూటికల్స్ మరియు సౌందర్య సాధనాలకు ఆదర్శం.',
           specs: ['స్వచ్ఛత: 99.9%', 'యాసిడ్ విలువ: < 2.0', 'తేమ: < 0.25%']
         },
         cotton: {
           name: 'పత్తి గింజల నూనె',
-          desc: 'తటస్థ రుచికి ప్రసిద్ధి చెందిన శుద్ధి చేసిన వంట నూనె.',
-          details: 'అత్యుత్తమ పత్తి గింజల నుండి సేకరించిన మా నూనె, వంటగది ఉపయోగానికి భద్రత మరియు నాణ్యతను నిర్ధారించడానికి కఠినమైన శుద్ధి ప్రక్రియకు లోనవుతుంది.',
-          specs: ['రకం: శుద్ధి చేసినది', 'రంగు: లేత పసుపు', 'ఫ్రీ ఫ్యాటీ యాసిడ్: < 0.1%']
+          desc: 'ముడి నూనె (Crude Oil).',
+          details: 'అత్యుత్తమ పత్తి గింజల నుండి సేకరించిన మా నూనె సహజ లక్షణాలను కలిగి ఉంటుంది.',
+          specs: ['రకం: ముడి నూనె', 'రంగు: లేత పసుపు', 'ఫ్రీ ఫ్యాటీ యాసిడ్: < 1.0%']
         },
         groundnut: {
           name: 'వేరుశెనగ విత్తనం',
           desc: 'గ్రేడెడ్ ఎగుమతి నాణ్యత గల వేరుశెనగలు.',
           details: 'మేము పరిమాణం మరియు నాణ్యత (HPS) ఆధారంగా వేరుశెనగలను ప్రాసెస్ చేసి గ్రేడ్ చేస్తాము. అంతర్జాతీయ ఎగుమతి ప్రమాణాలకు అనుగుణంగా మా విత్తనాలు జాగ్రత్తగా వేరు చేయబడతాయి.',
-          specs: ['సైజులు: 40/50, 50/60, 60/70', 'తేమ: < 7%', 'మిశ్రమం: < 1%']
+          specs: ['సైజులు: 50/60, 60/70, 80/90', 'తేమ: < 8%', 'మిశ్రమం: < 1%']
         },
         briquettes: {
           name: 'బయోఫ్యూయల్ బ్రికెట్స్',
@@ -395,7 +395,7 @@ const translations = {
           name: 'జిన్నెడ్ కాటన్',
           desc: 'విత్తనాల నుండి పత్తి నూలును ఖచ్చితత్వంతో వేరు చేయడం.',
           details: 'మా ఆధునిక జిన్నింగ్ యూనిట్లు కనిష్ట ఫైబర్ నష్టం మరియు గరిష్ట శుభ్రతను నిర్ధారిస్తాయి, దీని ఫలితంగా అత్యుత్తమ నాణ్యత గల కాటన్ లింట్ లభిస్తుంది.',
-          specs: ['పొడవు: 28mm+', 'మైక్: 3.5-4.9', 'బలం: 28+ GPT']
+          specs: ['పొడవు: 29mm+', 'మైక్: 3.5-4.9', 'బలం: 28+ GPT']
         },
         lint: {
           name: 'లింట్ కాటన్',

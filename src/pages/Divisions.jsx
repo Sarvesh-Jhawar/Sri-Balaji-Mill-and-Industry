@@ -12,7 +12,7 @@ import { useTranslation } from '../context/i18n';
 import oilImg from '../assets/oil_process.png';
 import cottonImg from '../assets/product-images/cotton_process.png';
 import biofuelImg from '../assets/product-images/biofuel-brigade.webp';
-import castorImg from '../assets/product-images/castord-oil-image.jpg';
+import castorImg from '../assets/product-images/castord-oil-image.webp';
 import cottonSeedImg from '../assets/product-images/cotton-seed-oil.jpg';
 import groundnutImg from '../assets/product-images/ground-nut.jpg';
 import lintImg from '../assets/product-images/Lint-Cotton.jpg';
